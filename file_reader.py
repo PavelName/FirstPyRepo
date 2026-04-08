@@ -15,7 +15,7 @@ def calculator():
             parts = user_input.split()
             
             # Проверка, что введены все 3 части
-            if len(parts) != 3:
+            if len(parts) != 4:
                 print("Ошибка! Вводите через пробел: Число Операция Число")
                 continue
 
