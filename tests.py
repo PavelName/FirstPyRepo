@@ -576,13 +576,21 @@ print('Hi!')
 # else:
 #     print('Разносторонни')
 
-a = int(input())
-b = int(input())
-c = int(input())
-if  (b <= a <= c) or (c <= a <= b):
-    print(a)
-elif (a <= b <= c) or (c <= b <= a):
-    print(b)
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if  (b <= a <= c) or (c <= a <= b):
+#     print(a)
+# elif (a <= b <= c) or (c <= b <= a):
+#     print(b)
+# else:
+#     print(c)
+
+month = int(input())
+if month == 2:
+    print(28)
+elif month == 4 or month == 6 or month == 9 or month == 11:
+    print(30)
 else:
-    print(c)
+    print(31)
 
