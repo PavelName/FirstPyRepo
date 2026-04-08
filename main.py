@@ -75,17 +75,17 @@
     
 # user_name('pavel')
 
-# def deskri_pet(animal_tippe,pet_name):
-#     print(f"\n In hawe {animal_tippe}")
-#     print(f"\n your {animal_tippe} name is {pet_name.title()}")
-# deskri_pet('elifant','chugar'
-# )
+def deskri_pet(animal_tippe,pet_name):
+    print(f"\n In hawe {animal_tippe}")
+    print(f"\n your {animal_tippe} name is {pet_name.title()}")
+deskri_pet('elifant','chugar'
+)
 
-# def get_formated_name(first_name,last_name):
-#     full_name = f"{first_name} {last_name}"
-#     return full_name.title()
-# vusician = get_formated_name("jim","hendriks")
-# print(vusician)
+def get_formated_name(first_name,last_name):
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+vusician = get_formated_name("jim","hendriks")
+print(vusician)
 
 def get_formated_name(first_name, last_name, middle_hame = ''):
     if middle_hame:
