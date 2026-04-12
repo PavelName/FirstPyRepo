@@ -1,3 +1,5 @@
+print('Hi Gys!!!')
+
 def calculator():
     print("--- Простой калькулятор ---")
     print("Введите 'exit', чтобы выйти")
