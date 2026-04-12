@@ -602,3 +602,40 @@ print('Hi!')
 #     print('Первый полусредний вес ')
 # else:
 #     print('Полусредний вес')
+
+# num1 = int(input())
+# num2 = int(input())
+# operator = input()
+
+# if operator == '+':
+#     print(num1 + num2)
+# elif operator == '-':
+#     print(num1 - num2)
+# elif operator == '*':
+#     print(num1 * num2)
+# elif operator == '/':
+#     if num2 == 0:
+#         print('На ноль делить нельзя!')
+#     else:
+#         print(num1 / num2)
+# else:
+#     print('Неверная операция')
+             
+num1 = int(input())
+operator = input()
+num2 = int(input())
+
+
+if operator == '+':
+    print(num1 + num2)
+elif operator == '-':
+    print(num1 - num2)
+elif operator == '*':
+    print(num1 * num2)
+elif operator == '/' and num2 == 0:
+    print('На ноль делить нельзя!')
+elif operator == '/':
+    print(num1 / num2)
+else:
+    print('Неверная операция')
+             
