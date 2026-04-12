@@ -594,11 +594,11 @@ print('Hi!')
 # else:
 #     print(31)
 
-# weight = int(input())
+weight = int(input())
 
-# if weight < 60:
-#     print('Легкий вес')
-# elif weight == 60 or weight < 64:
-#     print('Первый полусредний вес ')
-# else:
-#     print('Полусредний вес')
+if weight < 60:
+    print('Легкий вес')
+elif weight == 60 or weight < 64:
+    print('Первый полусредний вес ')
+else:
+    print('Полусредний вес')
