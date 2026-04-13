@@ -639,23 +639,60 @@ print('Hi!')
 # else:
 #     print('Неверная операция')
 
-color1 = input()
-color2 = input()
-if (color1 != 'красный' and color1 != 'синий' and color1 != 'желтый') or \
-   (color2 != 'красный' and color2 != 'синий' and color2 != 'желтый'):
-        print('ошибка цвета')
-else:
-    if color1 == color2:
-        print(color1)
+# color1 = input()
+# color2 = input()
+# if (color1 != 'красный' and color1 != 'синий' and color1 != 'желтый') or \
+#    (color2 != 'красный' and color2 != 'синий' and color2 != 'желтый'):
+#         print('ошибка цвета')
+# else:
+#     if color1 == color2:
+#         print(color1)
 
-    elif(color1 == 'красный' and color2 == 'синий') or \
-        (color1 == 'синий' and color2 == 'красный'):
-        print('фиолетовый') 
-    elif (color1 == 'красный' and color2 == 'желтый') or \
-         (color1 == 'желтый' and color2 == 'красный'):
-        print('оранжевый')
-    elif (color1 == 'синий' and color2 == 'желтый') or \
-         (color1 == 'желтый' and color2 == 'синий'):
-        print('зеленый')
+#     elif(color1 == 'красный' and color2 == 'синий') or \
+#         (color1 == 'синий' and color2 == 'красный'):
+#         print('фиолетовый') 
+#     elif (color1 == 'красный' and color2 == 'желтый') or \
+#          (color1 == 'желтый' and color2 == 'красный'):
+#         print('оранжевый')
+#     elif (color1 == 'синий' and color2 == 'желтый') or \
+#          (color1 == 'желтый' and color2 == 'синий'):
+#         print('зеленый')
 
+numb = int(input())
+if numb < 0 or numb > 36:
+    print('ошибка ввода')
+elif numb == 0:
+    print('зеленый')
+elif 1 <= numb <= 10 or 19 <= numb <= 28:
+    if numb % 2 == 0:
+        print('черный')
+    else:
+        print('красный')
+elif 11 <= numb <= 18 or 29 <= numb <= 36:
+    if numb % 2 == 0:
+        print('красный')
+    else:
+        print('черный')
+        
+        #Внизу не правильный код 
+        #Логика первой строки: numb != 0 and numb != 36 отсекает почти все числа. Нужно проверять, выходит ли число за границы 0...36.
+#Вложенность: Ты запихнул проверки диапазонов внутрь else, из-за чего они никогда не сработают правильно.
+#Дублирование: Для каждого диапазона нужна своя ветка elif.
+
+# elif 1 <= numb <= 10 and numb % 2 == 0:
+#     print('черный')
+# else:
+#     print('красный')
+#     if 11 <= numb <= 18 and numb % 2 == 0:
+#         print('красный')
+#     else:
+#         print('черный')
+#         if 19 <= numb <= 28 and numb % 2 == 0:
+#             print('черный')
+#         else:
+#             print('красный')
+#             if 29 <= numb <= 36 and numb % 2 == 0:
+#                 print('красный')
+#             else:
+#                 print('черный')
     
