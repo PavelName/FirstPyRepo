@@ -621,21 +621,41 @@ print('Hi!')
 # else:
 #     print('Неверная операция')
              
-num1 = int(input())
-operator = input()
-num2 = int(input())
+# num1 = int(input())
+# operator = input()
+# num2 = int(input())
 
 
-if operator == '+':
-    print(num1 + num2)
-elif operator == '-':
-    print(num1 - num2)
-elif operator == '*':
-    print(num1 * num2)
-elif operator == '/' and num2 == 0:
-    print('На ноль делить нельзя!')
-elif operator == '/':
-    print(num1 / num2)
+# if operator == '+':
+#     print(num1 + num2)
+# elif operator == '-':
+#     print(num1 - num2)
+# elif operator == '*':
+#     print(num1 * num2)
+# elif operator == '/' and num2 == 0:
+#     print('На ноль делить нельзя!')
+# elif operator == '/':
+#     print(num1 / num2)
+# else:
+#     print('Неверная операция')
+
+color1 = input()
+color2 = input()
+if (color1 != 'красный' and color1 != 'синий' and color1 != 'желтый') or \
+   (color2 != 'красный' and color2 != 'синий' and color2 != 'желтый'):
+        print('ошибка цвета')
 else:
-    print('Неверная операция')
-             
+    if color1 == color2:
+        print(color1)
+
+    elif(color1 == 'красный' and color2 == 'синий') or \
+        (color1 == 'синий' and color2 == 'красный'):
+        print('фиолетовый') 
+    elif (color1 == 'красный' and color2 == 'желтый') or \
+         (color1 == 'желтый' and color2 == 'красный'):
+        print('оранжевый')
+    elif (color1 == 'синий' and color2 == 'желтый') or \
+         (color1 == 'желтый' and color2 == 'синий'):
+        print('зеленый')
+
+    
