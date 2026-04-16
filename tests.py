@@ -721,12 +721,35 @@ print('Hi!')
 #     print('YES')
 # else:
 #     print('NO')
-a1 = int(input())
-b1 = int(input())
-a2 = int(input())
-b2 = int(input())
+# a1 = int(input())
+# b1 = int(input())
+# a2 = int(input())
+# b2 = int(input())
 
-if (a1 + b1) %  2 == (a2 + b2) % 2:
+# if (a1 + b1) %  2 == (a2 + b2) % 2:
+#     print('YES')
+# else:
+#     print('NO')
+
+# year = int(input())
+# char = input()
+
+# if  10 <= year <= 15 and char == 'f':
+#     print('YES')
+# else:
+#     print('NO')
+
+num = int(input())
+
+if num % 2 != 0:
     print('YES')
 else:
-    print('NO')
+    if 2 <= num <= 5:
+         print('NO')
+    elif 6 <= num <= 20:
+        print('YES')
+    elif num > 20:
+        print('NO')
+        
+
+
