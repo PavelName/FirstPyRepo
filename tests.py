@@ -658,21 +658,21 @@ print('Hi!')
 #          (color1 == 'желтый' and color2 == 'синий'):
 #         print('зеленый')
 
-numb = int(input())
-if numb < 0 or numb > 36:
-    print('ошибка ввода')
-elif numb == 0:
-    print('зеленый')
-elif 1 <= numb <= 10 or 19 <= numb <= 28:
-    if numb % 2 == 0:
-        print('черный')
-    else:
-        print('красный')
-elif 11 <= numb <= 18 or 29 <= numb <= 36:
-    if numb % 2 == 0:
-        print('красный')
-    else:
-        print('черный')
+# numb = int(input())
+# if numb < 0 or numb > 36:
+#     print('ошибка ввода')
+# elif numb == 0:
+#     print('зеленый')
+# elif 1 <= numb <= 10 or 19 <= numb <= 28:
+#     if numb % 2 == 0:
+#         print('черный')
+#     else:
+#         print('красный')
+# elif 11 <= numb <= 18 or 29 <= numb <= 36:
+#     if numb % 2 == 0:
+#         print('красный')
+#     else:
+#         print('черный')
         
         #Внизу не правильный код 
         #Логика первой строки: numb != 0 and numb != 36 отсекает почти все числа. Нужно проверять, выходит ли число за границы 0...36.
@@ -696,3 +696,37 @@ elif 11 <= numb <= 18 or 29 <= numb <= 36:
 #             else:
 #                 print('черный')
     
+# a1 = int(input())
+# b1 = int(input())
+# a2 = int(input())
+# b2 = int(input())
+
+# if a1 > a2:
+#     left = a1
+# else:
+#     left = a2
+# if b1 < b2:
+#     right = b1
+# else:
+#     right = b2
+# if left < right:
+#     print(left, right)
+# elif left == right:
+#     print(left)
+# else:
+#     print('пустое множество')
+
+# years = int(input())
+# if years % 100 == 0:
+#     print('YES')
+# else:
+#     print('NO')
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+
+if (a1 + b1) %  2 == (a2 + b2) % 2:
+    print('YES')
+else:
+    print('NO')
