@@ -815,8 +815,22 @@ print('Hi!')
 # print(25_000)
 # print(25_000 == 25000)
 
-a = float(input())
-b = float(input())
+# a = float(input())
+# b = float(input())
 
-s = 0.5 * a * b
-print(s)
+# s = 0.5 * a * b
+# print(s)
+
+# s = float(input())
+# v1 = float(input())
+# v2 = float(input())
+
+# t = s / (v1 + v2)
+# print(t)
+
+# обратное число 
+mum = float(input())
+if mum == 0:
+    print('')
+else:
+    print(1 / mum)
