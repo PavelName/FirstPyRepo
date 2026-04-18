@@ -739,17 +739,84 @@ print('Hi!')
 # else:
 #     print('NO')
 
-num = int(input())
+# num = int(input())
 
-if num % 2 != 0:
-    print('YES')
-else:
-    if 2 <= num <= 5:
-         print('NO')
-    elif 6 <= num <= 20:
-        print('YES')
-    elif num > 20:
-        print('NO')
-        
+# if num % 2 != 0:
+#     print('YES')
+# else:
+#     if 2 <= num <= 5:
+#          print('NO')
+#     elif 6 <= num <= 20:
+#         print('YES')
+#     elif num > 20:
+#         print('NO')
 
 
+# x1 = int(input())
+# y1 = int(input())
+# x2 = int(input())
+# y2 = int(input())
+# if x1 > x2:
+#     dx = x1 - x2
+# else:
+#     dx = x2 - x1
+# if y1 > y2:
+#     dy = y1 - y2
+# else:
+#     dy = y2 - y1
+# if dx == dy:
+#     print('YES')
+# else:
+#     print('NO')
+
+# if x1 > x2:
+#     dx = x1 - x2
+# else:
+#     dx = x2 - x1
+
+# ход конем
+# 
+
+# ход ФЕРЗЯ
+# x1 = int(input())
+# y1 = int(input())
+# x2 = int(input())
+# y2 = int(input())
+
+# if x1 > x2:
+#     dx = x1 - x2
+# else:
+#     dx = x2 - x1
+
+# if y1 > y2:
+#     dy = y1 - y2
+# else:
+#     dy = y2 - y1
+
+
+# if x1 == x2 or y1 == y2 or dx == dy:
+#     print('YES')
+# else:
+#     print('NO')
+
+# a = 2.5
+# b = 3
+# print(3 / 2)
+# print(a ** 2)
+# print((2 * a + b) / 2)
+# print(2.5 // 3)
+
+# num1 = float(25_000)
+# num2 = float(25_000 == 25000)
+
+# print(num1)
+# print(num2)
+
+# print(25_000)
+# print(25_000 == 25000)
+
+a = float(input())
+b = float(input())
+
+s = 0.5 * a * b
+print(s)
