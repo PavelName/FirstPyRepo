@@ -889,15 +889,49 @@ print('Hi!')
 # else:
 #     print('Число неинтересное')
 
-a = int(input())
-b = int(input())
-c = int(input())
+# a = int(input())
+# b = int(input())
+# c = int(input())
 
-n1 = max(a, b, c)
-n3 = min(a, b, c)
-n2 = (a + b + c) - n1 - n3
+# n1 = max(a, b, c)
+# n3 = min(a, b, c)
+# n2 = (a + b + c) - n1 - n3
 
 
-print(n1)
-print(n2)
-print(n3)
+# print(n1)
+# print(n2)
+# print(n3)
+# p1 = int(input())
+# q1 = int(input())
+# p2 = int(input())
+# q2 = int(input())
+
+# distance = abs(p1 - q1 ) + abs(p2 - q2)
+# print(distance)
+#print('123' * 3 + '456' * 2 + '789' * 1)
+# myster = 'да'
+# myster = myster + 'нет'
+# myster = myster + 'да'
+# print(myster)
+
+# str1 = '1'
+# str2 = str1 + '2' + str1
+# str3 = str2 + '3' + str2
+# str4 = str3 + '4' + str3
+#print('му' + 'му' * 0)
+
+# print('фыр-фыр' == "фыр-фыр")
+# print('фью-фью' == 'фью-фью')
+# str1 = '"Python is a great language!",'
+# str2 = ' said Fred.'
+# str3 = '''"I don't ever remember having this much fun before."'''
+# print(str1 + str2 + str3)
+
+# first_name = input()
+# last_name = input()
+
+# print('Hello ' + first_name + ' ' + last_name + '!' + ' You have just delved into Python')
+
+soccer_team_name = input()
+print('Футбольная команда ', soccer_team_name, 'имеет длину',
+    str(len(soccer_team_name)), 'символов')
