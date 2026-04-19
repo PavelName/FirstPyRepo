@@ -874,17 +874,30 @@ print('Hi!')
 
 # print(abs(n1) + abs(n2) + abs(n3) + abs(n4) + abs(n5) )
 
-n = int(input())
+# n = int(input())
 
-c1 = n // 100
-c2 = ( n // 10) % 10
-c3 = n % 10
-max_dig = max(c1, c2, c3)
-min_dig = min(c1, c2, c3)
+# c1 = n // 100
+# c2 = ( n // 10) % 10
+# c3 = n % 10
+# max_dig = max(c1, c2, c3)
+# min_dig = min(c1, c2, c3)
 
-mid_dig = (c1 + c2 + c3) - max_dig - min_dig
+# mid_dig = (c1 + c2 + c3) - max_dig - min_dig
 
-if max_dig - min_dig == mid_dig:
-    print('Число интересное')
-else:
-    print('Число неинтересное')
+# if max_dig - min_dig == mid_dig:
+#     print('Число интересное')
+# else:
+#     print('Число неинтересное')
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+n1 = max(a, b, c)
+n3 = min(a, b, c)
+n2 = (a + b + c) - n1 - n3
+
+
+print(n1)
+print(n2)
+print(n3)
