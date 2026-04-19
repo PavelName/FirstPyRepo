@@ -829,8 +829,62 @@ print('Hi!')
 # print(t)
 
 # обратное число 
-mum = float(input())
-if mum == 0:
-    print('')
+# mum = float(input())
+# if mum == 0:
+#     print('')
+# else:
+#     print(1 / mum)
+
+# scale = float(input())
+# tc = 5 / 9 * (scale - 32)
+# print(tc)
+
+# n = int(input())
+
+# if n <= 2:
+#     age = n * 10.5
+# else:
+#     age = 21 + (n - 2) * 4
+# print(age)
+
+# num = float(input())
+# print(int(num * 10) % 10)
+
+# n = float(input())
+# print(n - int(n))
+
+# print(max(0, 2, 6, 1) + max(-2, -4, -5, -2))
+# print(abs(1 - 3) + abs(4 - 4))
+# print(max(1, 3, -5, 7) + min(-3, 6, -8, -1) + abs(-17))
+# print(min(-3, 6, -8, -1))
+# n1 = int(input())
+# n2 = int(input())
+# n3 = int(input())
+# n4 = int(input())
+# n5 = int(input())
+
+# print('Наименьшее число', '=', min(n1,n2,n3,n4,n5))
+# print('Наибольшее число', '=', max(n1,n2,n3,n4,n5))
+
+# n1 = float(input())
+# n2 = float(input())
+# n3 = float(input())
+# n4 = float(input())
+# n5 = float(input())
+
+# print(abs(n1) + abs(n2) + abs(n3) + abs(n4) + abs(n5) )
+
+n = int(input())
+
+c1 = n // 100
+c2 = ( n // 10) % 10
+c3 = n % 10
+max_dig = max(c1, c2, c3)
+min_dig = min(c1, c2, c3)
+
+mid_dig = (c1 + c2 + c3) - max_dig - min_dig
+
+if max_dig - min_dig == mid_dig:
+    print('Число интересное')
 else:
-    print(1 / mum)
+    print('Число неинтересное')
