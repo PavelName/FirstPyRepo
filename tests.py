@@ -932,6 +932,38 @@ print('Hi!')
 
 # print('Hello ' + first_name + ' ' + last_name + '!' + ' You have just delved into Python')
 
-soccer_team_name = input()
-print('Футбольная команда ', soccer_team_name, 'имеет длину',
-    str(len(soccer_team_name)), 'символов')
+# soccer_team_name = input()
+# print('Футбольная команда ', soccer_team_name, 'имеет длину',
+#     str(len(soccer_team_name)), 'символов')
+
+# city1 = input()
+# city2 = input()
+# city3 = input()
+# city_tall = max(city1, city2, city3)
+# city_shirt = min(city1, city2, city3)
+# print(city_shirt)
+# print(city_tall)
+
+s1 = input()
+s2 = input()
+s3 = input()
+
+len1 = len(s1)
+len2 = len(s2)
+len3 = len(s3)
+
+# короткое название
+if len1 < len2 and len1 < len3:
+    print(s1)
+elif len2 < len1 and len2 < len3:
+    print(s2)
+else:
+    print(s3)
+    
+#длинное названме
+if len1 > len2 and len1 > len3:
+    print(s1)
+elif len2 > len1 and len2 > len3:
+    print(s2)
+else:
+    print(s3)
