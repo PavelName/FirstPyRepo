@@ -944,26 +944,65 @@ print('Hi!')
 # print(city_shirt)
 # print(city_tall)
 
-s1 = input()
-s2 = input()
-s3 = input()
+# s1 = input()
+# s2 = input()
+# s3 = input()
 
-len1 = len(s1)
-len2 = len(s2)
-len3 = len(s3)
+# len1 = len(s1)
+# len2 = len(s2)
+# len3 = len(s3)
 
-# короткое название
-if len1 < len2 and len1 < len3:
-    print(s1)
-elif len2 < len1 and len2 < len3:
-    print(s2)
-else:
-    print(s3)
+# # короткое название
+# if len1 < len2 and len1 < len3:
+#     print(s1)
+# elif len2 < len1 and len2 < len3:
+#     print(s2)
+# else:
+#     print(s3)
     
-#длинное названме
-if len1 > len2 and len1 > len3:
-    print(s1)
-elif len2 > len1 and len2 > len3:
-    print(s2)
+# #длинное названме
+# if len1 > len2 and len1 > len3:
+#     print(s1)
+# elif len2 > len1 and len2 > len3:
+#     print(s2)
+# else:
+#     print(s3)
+# str1 = input()
+# str2 = input()
+# str3 = input()
+
+# s1 = len(str1)
+# s2 = len(str2)
+# s3 = len(str3)
+
+# min_1 = min(s1, s2, s3)
+# max_3 = max(s1, s2, s3)
+# midl_2 = (s1 + s2 + s3) - min_1 - max_3
+
+# if midl_2 - min_1 == max_3 - midl_2:
+#     print('YES')
+# else:
+#     print('NO')
+# s = input()
+# if "a" in s:
+#     print('Yes')
+# else:
+#     print('No')
+
+# language1 = 'JavaScript'
+# language2 = 'Java'
+
+# print(language1 in language2)
+# print(language2 in language1)
+# word = input()
+# if 'синий' in word:
+#     print('YES')
+# else:
+#     print('NO')
+
+word = input()
+if 'суббота' in word or 'воскресенье' in word:
+ 
+    print('YES')
 else:
-    print(s3)
+    print('NO')
