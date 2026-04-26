@@ -1000,9 +1000,16 @@ print('Hi!')
 # else:
 #     print('NO')
 
-word = input()
-if 'суббота' in word or 'воскресенье' in word:
+# word = input()
+# if 'суббота' in word or 'воскресенье' in word:
  
-    print('YES')
-else:
-    print('NO')
+#     print('YES')
+# else:
+#     print('NO')
+
+# shar = input()
+# if '@' in shar and '.' in shar:
+#     print('YES')
+# else:
+#     print('NO')
+
