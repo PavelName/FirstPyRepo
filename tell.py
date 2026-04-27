@@ -25,13 +25,30 @@ import math
 # result = a_tall / n_summ
 # print(result)
 
+# a = float(input())
+# b = float(input())
+# arithmetic_mean = (a + b) / 2
+# geometric_mean = math.sqrt(a * b)
+# harmonic_mean = 2 * (a * b) / (a + b)
+# square_mean = math.sqrt((a**2 + b**2) / 2)
+# print(arithmetic_mean)
+# print(geometric_mean)
+# print(harmonic_mean)
+# print(square_mean)
+
 a = float(input())
 b = float(input())
-arithmetic_mean = (a + b) / 2
-geometric_mean = math.sqrt(a * b)
-harmonic_mean = 2 * (a * b) / (a + b)
-square_mean = math.sqrt((a**2 + b**2) / 2)
-print(arithmetic_mean)
-print(geometric_mean)
-print(harmonic_mean)
-print(square_mean)
+c = float(input())
+
+d = b**2 - 4 * a * c
+if d < 0:
+    print('Нет корней')
+elif d == 0:
+    x = -b / (2 * a)
+    print(x)
+else:
+    x1 = (-b - math.sqrt(d)) / (2 * a)
+    x2 = (-b + math.sqrt(d)) / (2 * a)
+    print(min(x1, x2))
+    print(max(x1, x2))
+        
