@@ -1013,3 +1013,9 @@ print('Hi!')
 # else:
 #     print('NO')
 
+print('Go')
+
+for i in range(51):
+    print('Go')
+
+print('Go')
