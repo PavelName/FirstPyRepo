@@ -1013,9 +1013,47 @@ print('Hi!')
 # else:
 #     print('NO')
 
-print('Go')
+# print('Go')
 
-for i in range(51):
-    print('Go')
+# for i in range(51):
+#     print('Go')
 
-print('Go')
+# print('Go')
+# for i in range(3):
+#     print(0, end='+')
+# for i in range(2):
+#     print('we will')
+
+# print('rock you')
+
+# for i in range(10):
+#     print('Python is awesome!')
+
+# a = 'AAA'
+# b = 'BBBB'
+# e = 'E'
+# t = 'TTTTT'
+# g = 'G'
+
+# for i in range(6):
+#     print(a)
+    
+# for i in range(5):
+#     print(b)
+    
+# print(e)
+
+# for i in range(9):
+
+
+#     print(t)
+    
+# print(g)
+    
+word = input()
+n = int(input())
+for i in range(n):
+    print(word)
+    
+
+    
