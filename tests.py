@@ -1050,10 +1050,34 @@ print('Hi!')
     
 # print(g)
     
-word = input()
-n = int(input())
-for i in range(n):
-    print(word)
+# word = input()
+# n = int(input())
+# for i in range(n):
+#     print(word)
     
+# n = int(input())
+# for _ in range(n):
+#         print('*' * 19)
+    
+# for i in range(4):
 
-    
+# for i in range(4):
+#     j = i + 1
+#     print(i, j)
+# for i in range(27):
+#     j = i + 1
+#     print(i)
+
+#     print(j)
+
+# total = 0
+# for i in range(3):
+#     total = total - i
+#     print(total)
+total = 0
+for i in range(10):
+    total = total + i
+    if i == 9:
+        total = 1
+
+print(total)
