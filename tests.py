@@ -1074,10 +1074,34 @@ print('Hi!')
 # for i in range(3):
 #     total = total - i
 #     print(total)
-total = 0
-for i in range(10):
-    total = total + i
-    if i == 9:
-        total = 1
+# total = 0
+# for i in range(10):
+#     total = total + i
+#     if i == 9:
+#         total = 1
 
-print(total)
+# print(total)
+
+# str = input()
+# for i in range(10):
+#         print(i, str)
+
+# n = int(input())
+# for i in range(n + 1):
+#         print('Квадрат числа', i , 'равен', i ** 2)
+
+# n = int(input())
+# for i in range(n, 0, -1):
+#         print('*' * i)
+
+# m = int(input())
+# p = int(input())
+# n = int(input())
+
+# for day in range(1, n + 1):
+#     print(day, m)
+#     m = m + m * (p / 100)
+
+for i in range(100, 1000):
+        if i % 10 == 7:
+                print(i)
