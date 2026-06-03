@@ -1102,6 +1102,43 @@ print('Hi!')
 #     print(day, m)
 #     m = m + m * (p / 100)
 
-for i in range(100, 1000):
-        if i % 10 == 7:
-                print(i)
+# for i in range(100, 1000):
+#         if i % 10 == 7:
+#                 print(i)
+# for i in range(4, 8, 2):
+#     print(i)
+
+# for i in range(12, 8, -1):
+#         print(i)
+
+# for i in range(3, 7):
+#         print(i, end='/')
+
+# for i in range(1, 10, 3):
+#         print(i, sep='?')
+
+# for i in range(3, 10, 2):
+#         print(i)
+
+# m = int(input())
+# n = int(input())
+# for i in range(m, n + 1):
+#         print(i)
+
+# n = int(input())
+# for i in range(1, 11):
+#         result = n * i
+#         print(n, 'x', i, '=', result)
+
+# m = int(input())
+# n = int(input())
+# for i in range(m, n + 1):
+#         if (i % 17 == 0) or (i % 10 == 9) or (i % 3 == 0 and i % 5 == 0):
+#                 print(i)
+
+m = int(input())
+n = int(input())
+if m % 2 == 0:
+        m -= 1
+for i in range(m, n - 1, -2):
+        print(i)
