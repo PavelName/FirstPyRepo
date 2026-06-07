@@ -1159,3 +1159,18 @@ print('Hi!')
 #         countrr = countrr + 1
         
 # print(countrr)
+
+# maximun = int(input())
+# for _ in range(4):
+#         num = int(input())
+#         if num > maximun:
+#                 maximun = num
+                
+# print(maximun * 2)
+minimum = 100
+for _ in range(5):
+        num = int(input())
+        if num < minimum:
+                minimum = num
+                
+print(minimum)
