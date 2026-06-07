@@ -1136,11 +1136,26 @@ print('Hi!')
 #         if (i % 17 == 0) or (i % 10 == 9) or (i % 3 == 0 and i % 5 == 0):
 #                 print(i)
 
-m = int(input())
-n = int(input())
-if m < n:
-  for i in range(m, n + 1):
-          print(i)
-else:
-  for i in range(m, n -1, -1):
-          print(i)
+# m = int(input())
+# n = int(input())
+# if m < n:
+#   for i in range(m, n + 1):
+#           print(i)
+# else:
+#   for i in range(m, n -1, -1):
+#           print(i)
+
+# n = int(input())
+# counter = 0
+# for _ in range(10):
+#         if n > 10:
+#                 counter += 1
+# print('Было введено', counter, 'чисел, больших 10.')
+
+# countrr = 0
+# for _ in range(5):
+#     n = int(input())
+#     if n > 10:
+#         countrr = countrr + 1
+        
+# print(countrr)
