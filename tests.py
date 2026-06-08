@@ -1167,10 +1167,29 @@ print('Hi!')
 #                 maximun = num
                 
 # print(maximun * 2)
-minimum = 100
-for _ in range(5):
-        num = int(input())
-        if num < minimum:
-                minimum = num
+# minimum = 100
+# for _ in range(5):
+#         num = int(input())
+#         if num < minimum:
+#                 minimum = num
                 
-print(minimum)
+# print(minimum)
+# counter = 0
+# for i in range(1, 11):
+#         if i % 2 == 1:
+#                 counter += 1
+                
+# print(counter)
+
+# counter = 0
+# for i in range(20, 26):
+#         if i >= counter:
+#                 counter += 1
+# print(counter)\\
+
+prod = 1
+for i in range(-7, -3, 1):
+        if i < -5:
+                prod *= i
+                
+print(prod)
